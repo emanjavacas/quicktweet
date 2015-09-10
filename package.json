@@ -1,0 +1,39 @@
+{
+  "name": "quicktweet",
+  "version": "0.1.0",
+  "description": "A js script for fast tweet picking",
+  "main": "quicktweet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanjavacas/quicktweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "oEmbed"
+  ],
+  "dependencies": {
+      "q": "1.4.1",
+      "request": "2.61.0",
+      "cheerio": "0.19.0",
+      "string": "3.3.1",
+      "minimist": "1.2.0"
+  },
+  "author": "Enrique Manjavacas <enrique.manjavacas@gmail.com> (emanjavacas.github.io)",
+  "licenses": [
+      {
+	  "type": "MIT",
+	  "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+      }
+  ],
+  "bugs": {
+    "url": "https://github.com/emanjavacas/quicktweet/issues"
+  },
+  "homepage": "https://github.com/emanjavacas/quicktweet#readme",
+  "preferGlobal": true,
+  "bin": {
+      "quicktweet": "quicktweet.js"
+  }
+}
